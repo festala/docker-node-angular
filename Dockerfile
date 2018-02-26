@@ -9,4 +9,4 @@ RUN set -xe && \
   export USER=root && export HOME=/tmp && npm install -g @angular/cli
 
 COPY ./*.sh /
-CMD ["/entrypoint.sh"]
+#CMD ["/entrypoint.sh"]
